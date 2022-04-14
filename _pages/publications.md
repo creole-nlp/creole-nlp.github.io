@@ -6,7 +6,7 @@ description: publications by categories in reversed chronological order. generat
 years: []
 nav: false
 ---
-<!-- _pages/publications.md -->
+<!-- _pages/publications.md 
 <div class="publications">
 
 {%- for y in page.years %}
@@ -15,3 +15,4 @@ nav: false
 {% endfor %}
 
 </div>
+-->
