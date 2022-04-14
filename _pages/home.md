@@ -16,13 +16,15 @@ social: false  # includes social icons at the bottom of the page
 
 This page aims to centralize NLP resources for Creoles. This is an open community effort and we welcome updates via [pull requests](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) on this website's [github repository](https://github.com/creole-nlp/creole-nlp.github.io).
 
+Below is a table summarizing resources and their availability.
+
 | Language                               | Resource                                                                            | Description                                               | Status                               |
 |----------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------|
 | Haitian Kreyol                         | Haitian Disaster Response Corpus (Munro, 2010; Callison-Burch et al., 2011)         | SMS                                                       | Verified; E-mail authors for access. |
 |                                        | [CMU Haitian Corpus](http://www.speech.cs.cmu.edu/haitian/)                         | Speech and Text Corpora                                   | Verified                             |
 | Hawaiian Pidgin                        | Multilingual Hawai'i Linguistic Landscape Corpus (Purschke, 2021)                   | Image Repository with Annotations                         | Verified                             |
 | Nigerian Pidgin                        | NaijaSynCor (Bigi et al., 2017)                                                     | Speech Recognition                                        | Verified                             |
-|                                        | JW300 Corpus (Agi´c and Vuli´c, 2019)                                               | Parallel Texts for Machine Translation                    | Verified                             |
+|                                        | JW300 Corpus (Agić and Vulić, 2019)                                               | Parallel Texts for Machine Translation                    | Verified                             |
 |                                        | Pidgin UNMT (Ogueji and Ahia, 2019)                                                 | Monolingual Texts for Machine Translation                 | Verified                             |
 |                                        | Naija-English Codeswitching Corpus (Ndubuisi-Obi et al., 2019)                      | News Articles with Comments; Annotated for code switching | Verified                             |
 |                                        | Surface-Syntactic UD Treebank for Naija  (Caron et al., 2019)                       | Universal Dependencies                                    | Verified                             |
@@ -44,3 +46,19 @@ This page aims to centralize NLP resources for Creoles. This is an open communit
 | Portuguese Creole                      | CreolData (Schang et al., 2005)                                                     | Lexical Database                                          | Not verifiable                       |
 | Singlish                               | Singlish Sentiment Lexicon (Bajpai et al., 2017)                                    | Knowledge Base                                            | Not Verifiable                       |
 |                                        | Singlish SenticNet (Ho et al., 2018)                                                | Sentiment Resource                                        | Not Verifiable                       |
+
+
+
+<br>
+<br>
+<br>
+If you use this website, please cite our LREC 2022 paper:
+```
+@inproceedings{lent22creole,
+  title = "What a Creole Wants, What a Creole Needs",
+  author = "Lent, Heather and Ogueji, Kelechi and de Lhoneux, 
+            Miryam and Ahia, Orevaoghene and S{\o}gaard, Anders",
+  year = "2022",
+  booktitle = "LREC"
+}
+```
