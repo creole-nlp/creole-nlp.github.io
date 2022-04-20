@@ -208,7 +208,7 @@ scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 
-  style: apa
+  style: association-for-computational-linguistics
   locale: en
 
   source: /_bibliography/
