@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 This page aims to centralize NLP resources for Creoles. This is an open community effort and we welcome updates via [pull requests](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) on this website's [github repository](https://github.com/creole-nlp/creole-nlp.github.io).
 
-Below is a table summarizing resources and their availability.
+Below is a table summarizing resources and their availability. Papers on Creoles are collected [here](/papers).
 
 | Language                               | Resource                                                                            | Description                                               | Status                               |
 |----------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------|
