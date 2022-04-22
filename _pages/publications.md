@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: papers
 description: papers by language
-languages: ['British Creole', 'Guinea Creole', 'Guyanese', 'Haitian', 'Mauritian', 'Naija', 'Singlish', 'West African Pidgin', ]
+languages: ['British Creole', 'Guinea Creole', 'Guyanese', 'Haitian Kreyol', 'Mauritian Creole', 'Nigerian Pidgin', 'Singlish', 'West African Pidgin', ]
 nav: true
 ---
 <div class="publications">
