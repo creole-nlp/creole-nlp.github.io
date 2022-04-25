@@ -26,12 +26,61 @@ Papers on Creoles are collected [here](/papers).
   <td> <b> Description </b> </td>
   <td> <b> Status </b> </td>
 </tr>
+<!-- TODO: there has to be a better way to do this :)-->
 {% for row in site.data.table.content_hash %}
-<tr>
-  <td>{{row.Language}}</td>
-  <td><a href="{{row.dataset_url}}">{{row.Resource}}</a> <a href="{{row.paper_url}}">{{row.paper_ref}}</a></td>
-  <td>{{row.Description}}</td>
-  <td><a href="{{row.dataset_url_verified}}">{{row.Status}}</a></td>
-</tr>
+    {% assign dataset_url = row.dataset_url | strip_newlines %}
+    {% assign dataset_url_verified = row.dataset_url_verified | strip_newlines %}
+    {% assign paper_url = row.paper_url | strip_newlines %}
+    {% if dataset_url == "" %}
+        {% if dataset_url_verified == "" %}
+            {% if paper_url == "" %}
+                <tr>
+                  <td>{{row.Language}}</td>
+                  <td>{{row.Resource}} {{row.paper_ref}} </td>
+                  <td>{{row.Description}}</td>
+                  <td>{{row.Status}}</td>
+                </tr>
+            {% else %}
+                <tr>
+                  <td>{{row.Language}}</td>
+                  <td>{{row.Resource}} <a href="{{row.paper_url}}">{{row.paper_ref}}</a></td>
+                  <td>{{row.Description}}</td>
+                  <td>{{row.Status}}</td>
+                </tr>
+            {% endif %}
+        {% else %}
+            {% if paper_url == "" %}
+                <tr>
+                  <td>{{row.Language}}</td>
+                  <td>{{row.Resource}} {{row.paper_ref}}</a></td>
+                  <td>{{row.Description}}</td>
+                  <td><a href="{{row.dataset_url_verified}}">{{row.Status}}</a></td>
+                </tr>
+            {% else %}
+                <tr>
+                  <td>{{row.Language}}</td>
+                  <td>{{row.Resource}} <a href="{{row.paper_url}}">{{row.paper_ref}}</a></td>
+                  <td>{{row.Description}}</td>
+                  <td><a href="{{row.dataset_url_verified}}">{{row.Status}}</a></td>
+                </tr>
+            {% endif %}
+        {% endif %}
+    {% else %}
+        {% if dataset_url_verified == "" %}
+            <tr>
+              <td>{{row.Language}}</td>
+              <td><a href="{{row.dataset_url}}">{{row.Resource}}</a> <a href="{{row.paper_url}}">{{row.paper_ref}}</a></td>
+              <td>{{row.Description}}</td>
+              <td>{{row.Status}}</td>
+            </tr>
+        {% else %}
+            <tr>
+              <td>{{row.Language}}</td>
+              <td><a href="{{row.dataset_url}}">{{row.Resource}}</a> <a href="{{row.paper_url}}">{{row.paper_ref}}</a></td>
+              <td>{{row.Description}}</td>
+              <td><a href="{{row.dataset_url_verified}}">{{row.Status}}</a></td>
+            </tr>
+        {% endif %}
+    {% endif %}
 {% endfor %}
 </table>
