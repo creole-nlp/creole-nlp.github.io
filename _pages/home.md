@@ -84,3 +84,17 @@ Papers on Creoles are collected [here](/papers).
     {% endif %}
 {% endfor %}
 </table>
+
+<br>
+<br>
+<br>
+If you use this website, we would appreciate if you could cite our LREC 2022 paper:
+```
+@inproceedings{lent22creole,
+  title = "What a Creole Wants, What a Creole Needs",
+  author = "Lent, Heather and Ogueji, Kelechi and de Lhoneux, 
+            Miryam and Ahia, Orevaoghene and S{\o}gaard, Anders",
+  year = "2022",
+  booktitle = "LREC"
+}
+```
