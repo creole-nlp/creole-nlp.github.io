@@ -6,6 +6,7 @@ Haitian Kreyol,Haitian Disaster Response Corpus,SMS,Verified; E-mail authors for
 Haitian Kreyol,CMU Haitian Corpus,Speech and Text Corpora,Verified,,,http://www.speech.cs.cmu.edu/haitian/,
 Haitian Kreyol,Corpus of Northern Haitian Creole,Audio and Transcription,Not open source,,,https://www.indiana.edu/~creole/,
 Hawaiian Pidgin,Multilingual Hawai'i Linguistic Landscape Corpus ,Image Repository with Annotations,"Verified but currently unavailable, check back later","(Purschke, 2021)",https://www.degruyter.com/document/doi/10.1515/lingvan-2019-0032/html,,
+Jamaican Creole English,JamPatoisNLI,NLI,Verified,"(Armstrong et al., 2022)",https://aclanthology.org/2022.findings-emnlp.389/,https://github.com/ruth-ann/jampatoisnli,
 Malaccan Portuguese Creole,Endangered Language Archive,"Audio, Video, Transcriptions, Translations",Not open source; Membership required,,,http://elar.soas.ac.uk/deposit/0123,
 Maurtian Creole,ALLEX Project,Concordance of 200k Words,Not open source,,,http://www.edd.uio.no/allex/corpus/africanlang.html,
 Nigerian Pidgin,NaijaSynCor ,Speech Recognition,Verified,"(Bigi et al., 2017)",https://hal.archives-ouvertes.fr/hal-01705707/document,,
