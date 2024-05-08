@@ -1,2 +1,1 @@
-bundle clean --force
 bundle exec jekyll build
