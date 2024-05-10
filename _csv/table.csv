@@ -4,6 +4,7 @@ Antillean Creole,POS tags,"Parsing, Part of Speech",Verified,"(Mompelat, et al. 
 Bastimentos Creole English,Endangered Language Archive,"Audio, Video, Transcriptions, Translations",Not open source; Membership required,,,http://elar.soas.ac.uk/deposit/0171,
 Guadeloupean creole and Mauritian Creole,Dataset Speech Recognition and Query,Speech Recognition,Not open source,"(Macaire, et al. 2022)",https://aclanthology.org/2022.findings-acl.197/,,
 Gulf of Guinea Creoles,The Gulf of Guinea Creole Corpora ,Document Scans and Transcriptions,Limited Verifiability,"(Hagemeijer et al., 2014)",https://aclanthology.org/L14-1376/,,
+Guyana Creole,GuyLingo,Machine translation parallel text,Verified,(Clarke et al. 2024),https://arxiv.org/pdf/2405.03832,,
 Haitian Kreyol,CMU Haitian Corpus,Speech and Text Corpora,Verified,,,http://www.speech.cs.cmu.edu/haitian/,
 Haitian Kreyol,Corpus of Northern Haitian Creole,Audio and Transcription,Not open source,,,https://www.indiana.edu/~creole/,
 Haitian Kreyol,Haitian Disaster Response Corpus,SMS,Verified; E-mail authors for access.,"(Munro, 2010)",https://aclanthology.org/2010.amta-workshop.1/,,
