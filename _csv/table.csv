@@ -1,4 +1,4 @@
-Language,Resource,Description,Status,paper_ref,paper_url,dataset_url,dataset_url_verified
+https://github.com/JHU-CLSP/Kreyol-MT,Resource,Description,Status,paper_ref,paper_url,dataset_url,dataset_url_verified
 Antillean Creole,CREOLORAL,"Audio, Transcriptions, and Translations",Not open source,,,http://ircom.corpus-ir.fr/site/description_projet.php?projet=CREOLORAL,
 Bastimentos Creole English,Endangered Language Archive,"Audio, Video, Transcriptions, Translations",Not open source; Membership required,,,http://elar.soas.ac.uk/deposit/0171,
 Gulf of Guinea Creoles,The Gulf of Guinea Creole Corpora ,Document Scans and Transcriptions,Limited Verifiability,"(Hagemeijer et al., 2014)",https://aclanthology.org/L14-1376/,,
@@ -9,6 +9,8 @@ Hawaiian Pidgin,Multilingual Hawai'i Linguistic Landscape Corpus ,Image Reposito
 Jamaican Creole English,JamPatoisNLI,NLI,Verified,"(Armstrong et al., 2022)",https://aclanthology.org/2022.findings-emnlp.389/,https://github.com/ruth-ann/jampatoisnli,
 Malaccan Portuguese Creole,Endangered Language Archive,"Audio, Video, Transcriptions, Translations",Not open source; Membership required,,,http://elar.soas.ac.uk/deposit/0123,
 Maurtian Creole,ALLEX Project,Concordance of 200k Words,Not open source,,,http://www.edd.uio.no/allex/corpus/africanlang.html,
+Nigerian Pidgin,AfriSenti,Tweets for sentiment analysis,Verified,"(Muhammad et al., 2023)",https://aclanthology.org/2023.emnlp-main.862/,https://github.com/afrisenti-semeval/afrisent-semeval-2023,
+Nigerian Pidgin,NaijaSenti,Tweets for sentiment analysis,Verified,"(Muhammad et al., 2022)",https://aclanthology.org/2022.lrec-1.63/,https://github.com/hausanlp/NaijaSenti/tree/main/data/annotated_tweets,
 Nigerian Pidgin,NaijaSynCor ,Speech Recognition,Verified,"(Bigi et al., 2017)",https://hal.archives-ouvertes.fr/hal-01705707/document,,
 Nigerian Pidgin,JW300 Corpus,Parallel Texts for Machine Translation,Verified,"(Agić and Vulić, 2019)",https://aclanthology.org/P19-1310/,,
 Nigerian Pidgin,Pidgin UNMT ,Monolingual Texts for Machine Translation,Verified,"(Ogueji and Ahia, 2019)",https://aclanthology.org/2021.mrl-1.11/,,
@@ -27,3 +29,5 @@ Singlish,Singlish Sentiment Lexicon,Knowledge Base,Not open source,"(Bajpai et a
 2017)",https://arxiv.org/abs/1707.04408,,
 Singlish,Singlish SenticNet,Sentiment Resource,Not open source,"(Ho et al., 2018)",https://ieeexplore.ieee.org/document/8628796,,
 Sri Lankan Malay (Endangered),The Language Archive,Audio and XML,Verified,,,,
+Many,CreoleVal,Collection of benchmark datasets covering multiple NLP tasks,Verified,(Lent et al. 2024),https://arxiv.org/abs/2310.19567,https://github.com/hclent/creoleval,
+Many,KreyolMT,Machine translation bitexts,"Verified but currently unavailable, check back later",(Robinson et al. 2024),,https://github.com/JHU-CLSP/Kreyol-MT,
