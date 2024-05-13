@@ -31,4 +31,4 @@ Singlish,Singlish SenticNet,Sentiment Resource,Not open source,"(Ho et al., 2018
 Sri Lankan Malay (Endangered),The Language Archive,Audio and XML,Verified,,,,
 Many,CreoleVal,Collection of benchmark datasets covering multiple NLP tasks,Verified,(Lent et al. 2024),https://arxiv.org/abs/2310.19567,,https://github.com/hclent/creoleval
 Many,KreyolMT,Machine translation bitexts,"Coming Soon!",(Robinson et al. 2024),https://arxiv.org/abs/2405.05376,,https://github.com/JHU-CLSP/Kreyol-MT,
-Many,Creole Studies - Phylogenetic Approaches,Philogeny analysis of Creoles,"Verified",(Bakker et al. 2017),,https://phylogenetic-creole-studies.blogspot.com/,https://www.jbe-platform.com/content/books/9789027265739,
+Many,Creole Studies - Phylogenetic Approaches,Philogeny analysis of Creoles,"Verified",(Bakker et al. 2017),https://www.jbe-platform.com/content/books/9789027265739,,https://phylogenetic-creole-studies.blogspot.com/,
